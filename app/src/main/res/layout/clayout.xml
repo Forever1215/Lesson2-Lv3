@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/xinxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小C的个人信息"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#4177e3"
+        android:layout_toLeftOf="@+id/back"/>
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:background="#f4ba97"/>
+    <ImageView
+        android:id="@+id/xiaogang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gang"
+        android:layout_below="@+id/xinxi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名：小C\n学院：光电学院"
+        android:textSize="30dp"
+        android:layout_below="@+id/xinxi"
+        android:layout_toRightOf="@+id/xiaogang"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人信息：********\n********************
+        \n********************\n********************"
+        android:layout_below="@+id/xiaogang"
+        android:textSize="30dp"/>
+
+</RelativeLayout>

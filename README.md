@@ -19,5 +19,6 @@ Tab有什么用法呢
   >>>>四
 ######六级
 .这个就这么了吧
- #######七级好像不行诶
- Readme看这个链接http://blog.csdn.net/kaitiren/article/details/38513715
+#######七级好像不行诶
+Readme看这个链接http://blog.csdn.net/kaitiren/article/details/38513715
+再试一下超链接[Readme用法]（http://blog.csdn.net/kaitiren/article/details/38513715）
